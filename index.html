@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Brighton Times</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="responsive.css">
+  </head>
+  <body>
+
+    <header class="header">
+      <div class="header__inner">
+        <img class="header__logo" src="images/city.png" alt="iconic view of a cityscape">
+        <h1 class="header__title">
+          The Brighton Times
+        </h1>
+        <a id="menu" class="header__menu">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"/>
+          </svg>
+        </a>
+      </div>
+    </header>
+
+    <nav id="drawer" class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#">News</a></li>
+        <li class="nav__item"><a href="#">Events</a></li>
+        <li class="nav__item"><a href="#">Culture</a></li>
+        <li class="nav__item"><a href="#">Blog</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="content">
+        <section class="hero">
+          <article class="description">
+            <h2>The meaning of sport!</h2>
+            <p>Sport develops a sense of friendliness among the children and develop their team spirit. It helps children to develop mental and physical toughness.</p>
+          </article>
+        </section>
+
+        <section class="news top-news">
+          <h2 class="news__title">Top news <a href="#" class="news__more">+ more</a></h2>
+          <ul>
+            <li class="top-news__item">
+              <a href="#">Italy lost a playoff to Sweden and thus stumbled out of the Russia 2018 World Cup.</a>
+            </li>
+            <li class="top-news__item">
+              <a href="#">Six celebrities will take to the ice with their professional partners.</a>
+            </li>
+            <li class="top-news__item">
+              <a href="#">Manchester City will face Liverpool in the Champions League quarter-finals.</a>
+            </li>
+            <li class="top-news__item">
+              <a href="#">Naomi Osaka and Daria Kasatkina to meet in Indian Wells final.</a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="scores">
+          <table class="scores__table">
+            <thead>
+              <tr>
+                <th>date</th>
+                <th class="scores__location">location</th>
+                <th>team</th>
+                <th colspan="2">score</th>
+                <th>team</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Friday</td>
+                <td class="scores__location">Philadelphia</td>
+                <td class="winner">Phillies</td>
+                <td class="winner">6</td>
+                <td class="winner">6</td>
+                <td class="winner">Tigers</td>
+              </tr>
+              <tr>
+                <td>Friday</td>
+                <td class="scores__location">Toronto</td>
+                <td class="winner">Blue Jays</td>
+                <td class="winner">6</td>
+                <td>4</td>
+                <td>Phillies</td>
+              </tr>
+              <tr>
+                <td>Friday</td>
+                <td class="scores__location">Atlanta</td>
+                <td class="winner">Pirates</td>
+                <td class="winner">12</td>
+                <td>9</td>
+                <td>Braves</td>
+              </tr>
+              <tr>
+                <td>Friday</td>
+                <td class="scores__location">Miami</td>
+                <td class="winner">Cardinals</td>
+                <td class="winner">4</td>
+                <td>2</td>
+                <td>Marlins</td>
+              </tr>
+              <tr>
+                <td>Friday</td>
+                <td class="scores__location">Tampa Bay</td>
+                <td class="winner">Rays</td>
+                <td class="winner">11</td>
+                <td>1</td>
+                <td>Twins</td>
+              </tr>
+              
+            </tbody>
+          </table>
+        </section>
+
+        <section class="weather">
+          <span class="weather__location">Brighton, UK</span>
+          <span class="weather__desc">Sunny</span>
+          <span class="weather__today">
+          <img class="weather__today__image" src="images/weather.png" alt="icon of a partially cloudy day"><span class="weather__today__temp">13</span><span class="weather__today__deg">&deg;C</span>
+          </span>
+          <ul class="weather__next">
+            <li class="weather__next__item">
+              <span>Mon</span>
+              <img class="weather__next__image" src="images/sunny.png" alt="icon of a sunny day">
+              <span>13 &deg;C</span>
+            </li><li class="weather__next__item">
+              <span>Tues</span>
+              <img class="weather__next__image" src="images/cloudy.png" alt="icon of a cloudy day">
+              <span>13 &deg;C</span>
+            </li><li class="weather__next__item">
+              <span>Wed</span>
+              <img class="weather__next__image" src="images/cloudy.png" alt="icon of a cloudy day">
+              <span>13 &deg;C</span>
+            </li><li class="weather__next__item">
+              <span>Thu</span>
+              <img class="weather__next__image" src="images/rain.png" alt="icon of a rainy day">
+              <span>13 &deg;C</span>
+            </li><li class="weather__next__item">
+              <span>Fri</span>
+              <img class="weather__next__image" src="images/sunny.png" alt="icon of a sunny day">
+              <span>13 &deg;C</span>
+            </li>
+          </ul>
+        </section>
+
+        <section class="news recent-news">
+          <h2 class="news__title">Latest news <a href="#" class="news__more">+ more</a></h2>
+          <ul>
+            <li class="snippet">
+              <img class="snippet__thumbnail" src="images/sports-3224938_1280.jpg" alt="picture of a girl stretching">
+              <h3 class="snippet__title"><a href="#">Marathon sport mision, vision and values</a></h3>
+              <p>Marathon Sport is a sports apparel and training company established in 2017. We are committed to developing the most elite products and training for athletes. Marathon Sport understands that for athletes to reach their highest potential they need to be physically and mentally balanced at all times.
+              </p>
+            </li>
+            <li class="snippet">
+              <img class="snippet__thumbnail" src="images/bike-3225918_1280.jpg" alt="picture of a girl with a large, stuffed dog toy">
+              <h3 class="snippet__title"><a href="#">Cycle racing importance in the world</a></h3>
+              <p>Cycle sport is competitive physical activity using bicycles. There are several categories of bicycle racing including road bicycle racing, time trialling, cyclo-cross, mountain bike racing, track cycling, BMX, and cycle speedway. Non-racing cycling sports include artistic cycling, cycle polo, freestyle BMX and mountain bike trials.
+              </p>
+            </li>
+            <li class="snippet">
+              <img class="snippet__thumbnail" src="images/figure-skating-3198861_1280.jpg" alt="picture of a girl with a large, stuffed dog toy">
+              <h3 class="snippet__title"><a href="#">Skating with the stars</a></h3>
+              <p>Six celebrities will take to the ice with their professional partners, with couples performing high-paced ice dancing moves and dazzling figure skating routines.
+              </p>
+            </li>
+            <li class="snippet">
+              <img class="snippet__thumbnail" src="images/ball-3204197_1280.jpg" alt="picture of a girl with a large, stuffed dog toy">
+              <h3 class="snippet__title"><a href="#">Football apocalipse</a></h3>
+              <p>For the first time in sixty years since 1958, four times Football World Cup Champions Italy will not be present at a World Cup Finals in Russia in 2018. Monday 13 November 2017 will be a day Italians would wish they could forget. That evening in Milan, Italy lost a playoff to Sweden and thus stumbled out of the Russia 2018 World Cup.
+              </p>
+            </li>
+          </ul>
+        </section>
+      </section>
+      <footer>
+        <ul>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">Follow us on Twitter</a></li>
+          <li><a href="#">RSS</a></li>
+        </ul>
+      </footer>
+    </main>
+    <script>
+      /*
+       * Open the drawer when the menu ison is clicked.
+       */
+      var menu = document.querySelector('#menu');
+      var main = document.querySelector('main');
+      var drawer = document.querySelector('.nav');
+
+      menu.addEventListener('click', function(e) {
+        drawer.classList.toggle('open');
+        e.stopPropagation();
+      });
+      main.addEventListener('click', function() {
+        drawer.classList.remove('open');
+      });
+
+    </script>
+  </body>
+</html>
